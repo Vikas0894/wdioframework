@@ -1,0 +1,1 @@
+{"version":3,"file":"remove-dir.js","sourceRoot":"","sources":["../../../src/support/files/remove-dir.ts"],"names":[],"mappings":";;;AAAA,MAAM,EAAE,GAAG,OAAO,CAAC,IAAI,CAAC,CAAC;AAElB,MAAM,SAAS,GAAG,CAAC,GAAW,EAAQ,EAAE;IAC3C,IAAI,EAAE,CAAC,UAAU,CAAC,GAAG,CAAC,EAAE;QACpB,EAAE,CAAC,MAAM,CAAC,GAAG,EAAE,EAAE,SAAS,EAAE,IAAI,EAAE,CAAC,CAAC;KACvC;AACL,CAAC,CAAC;AAJW,QAAA,SAAS,aAIpB"}

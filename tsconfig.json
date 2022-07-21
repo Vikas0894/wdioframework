@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "esnext",
+    "strict": true,
+    "sourceMap": true,
+    "module": "CommonJS",
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "noImplicitAny": true,
+    "strictPropertyInitialization": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "types": [
+      "node",
+      "webdriverio/async",
+      "@wdio/cucumber-framework",
+      "expect-webdriverio"
+    ]
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
