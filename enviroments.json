@@ -1,0 +1,14 @@
+{
+  "auto_deploy_branch_targets": {
+    "develop": ["development"],
+    "deploy_development": ["development"],
+    "deploy_all_lower": ["development"]
+  },
+  "registry_url": "demo.actitime.com",
+  "target": {
+    "sandbox": {
+    },
+    "development": {
+    }
+  }
+}

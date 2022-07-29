@@ -4,20 +4,10 @@
   "version": "1.0.0",
   "description": "Automation framework to test web application and moblie app",
   "scripts": {
-    "test-web-local-e2e": "tsc && ENV='dev' NODE_OPTIONS '--insecure-http-parser' wdio run wdio.conf.js --cucumberOpts.tagExpression='@updated' --caps=webLocal",
+    "test-web-local-e2e": "tsc && ENV='dev' NODE_OPTIONS '--insecure-http-parser' wdio ./dist/configs/wdio/web-local-conf.js --cucumberOpts.tagExpression='@web' --caps=webLocal",
     "test": "echo \"Error: no test specified\" && exit 1",
     "wdio": "wdio run test/wdio.conf.ts"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Vikas0894/webdriverIO-Framework.git"
-  },
-  "keywords": [],
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Vikas0894/webdriverIO-Framework/issues"
-  },
-  "homepage": "https://github.com/Vikas0894/webdriverIO-Framework#readme",
   "devDependencies": {
     "@aws-sdk/client-kms": "^3.109.0",
     "@babel/cli": "^7.17.10",
